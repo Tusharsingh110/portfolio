@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+    <div class="sidebar">
+       <nav> <ul>
+        <li> <a href="index.htm"> Home       </a>   </li>
+        <li> <a href="aboutme.htm"> About Me   </a>   </li>
+        <li> <a href="cv.htm"> CV         </a>   </li>
+        <li> <a href="contactme.htm"> Contact me </a>   </li>
+    </ul></nav>
+    </div>
+    
+    <div class="main">
+        <div class="contactform">
+            <h1 class="contacthead">Contact form</h1>
+            <form class="frm">
+              <div class="form-group">
+                <label for="name">Name <span class="imp">*</span></label>
+                <input type="text" class="form-control" id="clientname" aria-describedby="name" placeholder="Enter name" required>
+              </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address <span class="imp">*</span></label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPhone">Phone</label>
+                  <input type="number" class="form-control" id="clientphone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputquery">Enquiry <span class="imp">*</span></label>
+                  <input type="text" class="form-control" id="clientquery" placeholder="Enter your query here..">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email and phone with anyone else.</small>
+                </div>
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Want to work on a project together?</label>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+        </div>
+         </div>
+    </div>
+</body>
+</html>
