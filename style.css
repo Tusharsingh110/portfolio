@@ -126,7 +126,7 @@
   .contacthead {
     margin: 3vh;
     
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: 400;
   } 
    .contactform {    
@@ -160,14 +160,14 @@
   /* border-color: rgb(222, 222, 222); */
   font-family: 'poppins', sans-serif;
   margin: 2vh 0;
-  height: 6vh;
-  font-size: 12px;
+  height: 2.5vh;
+  font-size: 2vh;
 }
 
 .submit-btn {
   margin: 3vh 0;
-  width: 20vw;
-  height: 5vh;
+  width: 88px;
+  height: 5.2vh;
   border-radius: 20px;
   border-style: none;
   background-color: rgb(39, 39, 39);
@@ -186,7 +186,7 @@
 /* background-color: red; */
 }
 input {
-  padding: 0 2vw;
+  padding: 0.9vw;
 }
 .form-control:focus{
   /* border-style: none;
