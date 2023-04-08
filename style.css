@@ -19,8 +19,8 @@
 
 .sidebar nav{
     font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 3vw;
+    font-family: 'Fira sans', sans-serif;
+    padding:0vh 3vw;
 }
 
 .sidebar nav li {
@@ -30,6 +30,12 @@
     font-size: 20px;
 }
 
+
+
+/* .line1{
+  width: 4vw:
+
+} */
 
 .main {
     width: 84vw;
@@ -42,7 +48,7 @@
     margin: 120px auto;
     height: 60vh;
     width: 70vw;
-    background-color: rgb(102, 180, 219);
+    /* background-color: rgb(102, 180, 219); */
     display: flex;
 }
 
@@ -81,8 +87,9 @@
   }
 
     
-.myinfo {
+  .myinfo {
     height: inherit;
+    width: 27vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,7 +126,7 @@
   .contacthead {
     margin: 3vh;
     
-    font-size: 25px;
+    font-size: 2.5vh;
     font-weight: 400;
   } 
    .contactform {    
@@ -146,7 +153,7 @@
   width:75%;
 }
 .form-text {
-  font-size: 10px;
+  font-size: 1.2vh;
 } 
 .form-control{
   border-style: none;
@@ -159,9 +166,9 @@
 
 .submit-btn {
   margin: 3vh 0;
-  width: 100px;
+  width: 20vw;
   height: 5vh;
-  border-radius: 17px;
+  border-radius: 20px;
   border-style: none;
   background-color: rgb(39, 39, 39);
   color: white;
@@ -179,7 +186,7 @@
 /* background-color: red; */
 }
 input {
-  padding: 0 1vw;
+  padding: 0 2vw;
 }
 .form-control:focus{
   /* border-style: none;
