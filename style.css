@@ -14,9 +14,8 @@
 .sidebar {
   height: 100vh;
   width: 16vw;
-  background-color: rgb(241, 241, 241);
-  transform: translate(-250px, 0px);
-  position: absolute;
+  background-color: rgb(241, 241, 241);  
+  transition-duration: 0.5s;
 }
 
 .sidebar nav{
@@ -40,8 +39,7 @@
 } */
 
 .main {
-  width: 100vw;
-  background-color: red;
+  width: 84vw;
 }
 
 .infoContainer {
@@ -57,20 +55,21 @@
 
 .buttons {
   margin-left: 1px;
-  margin-top: 1vh;
+  height: 86px;
+  width: 25vw;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: space-evenly;
-  height: 11vh;
 }
 
 
 
- .buttons button {
+.btn{
     /* display: flex; */
     font-family: 'Poppins', sans-serif;
     border-radius: 26px;
     border: none;
-    width: 11vw;
+    width: 9vw;
     margin-top: 21px;
     padding: 1px;
     height: 45px;
@@ -80,8 +79,8 @@
 } 
 
 .btn:hover {
-    width: 15vw;
-    height: 7vh;
+    width: 10vw;
+    height: 50px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
@@ -90,13 +89,13 @@
   }
 
     
-  .myinfo {
-    height: inherit;
-    width: 32vw;
-    display: flex;
-    /* margin: 10px; */
-    flex-direction: column;
-    justify-content: center;
+ .myinfo {
+  height: inherit;
+  width: 29vw;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hello{
@@ -196,4 +195,14 @@ input {
   /* border-style: none;
   o */
   outline: none;
+}
+
+@media (max-width: 1050px) {
+  *{
+    background-color: aqua;
+  }
+  .sidebar {
+    transform: translate(-300px, 0px);
+    position: absolute;
+  }
 }
