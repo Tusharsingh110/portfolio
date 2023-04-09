@@ -46,16 +46,17 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 25px;
-    margin: 120px auto;
-    height: 60vh;
+    margin: 10vh 2vw;
+    height: 76vh;
     width: 70vw;
+    flex-wrap: wrap;
     /* background-color: rgb(102, 180, 219); */
     display: flex;
 }
 
 .buttons {
   margin-left: 1px;
-  height: 86px;
+  height: 132px;
   width: 25vw;
   /* margin-top: 50px; */
   display: flex;
@@ -69,7 +70,7 @@
     font-family: 'Poppins', sans-serif;
     border-radius: 26px;
     border: none;
-    width: 9vw;
+    width: 130px;
     margin-top: 21px;
     padding: 1px;
     height: 45px;
@@ -118,6 +119,7 @@
 
 .mypic img{    
     height: 60vh;
+    margin-left: 82px;
 }
 
 
@@ -199,10 +201,17 @@ input {
 
 @media (max-width: 1050px) {
   *{
-    background-color: aqua;
+    /* background-color: aqua; */
   }
   .sidebar {
     transform: translate(-300px, 0px);
     position: absolute;
+  }
+}
+
+@media (max-width: 777px) {
+
+  .buttons {
+    flex-direction: column;
   }
 }
