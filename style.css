@@ -163,7 +163,8 @@
   border-style: none;
   /* border-color: rgb(222, 222, 222); */
   font-family: 'poppins', sans-serif;
-  margin: 2vh 0;
+  
+  margin-bottom: 4vh;
   height: 2.5vh;
   font-size: 2vh;
 }
@@ -214,5 +215,8 @@ input {
   }
   .buttons {
     flex-direction: column;
+  }
+  .form-control {
+    font-size: 1.2vh;
   }
 }
