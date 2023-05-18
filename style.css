@@ -211,7 +211,7 @@ input {
   width:70vw;
   height:90vh;
   margin: 6vh 6vw;
-  background-color: blue;
+  background-color: rgb(78, 78, 210);
 }
 
 @media (max-width: 777px) {
